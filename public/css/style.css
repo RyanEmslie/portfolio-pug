@@ -5,6 +5,7 @@ h1,h2,h3,h4,h5,p{
 }
 
   h5{
+    color: black;
     font-family: 'Lato', 'Helvetica Neue', Helvetica, Arial, sans-serif;
     letter-spacing: .5px;
     -webkit-text-transform: uppercase;
@@ -40,7 +41,7 @@ h1,h2,h3,h4,h5,p{
 }
 
 a{
-  color: #333;
+  color: #bedce9;
 }
 
 a:hover{
