@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+html(class="no-js" lang="en" dir="ltr")
+  head
+    meta(charset='utf-8')
+    meta(http-equiv='x-ua-compatible', content='ie=edge')
+    meta(name='viewport', content='width=device-width, initial-scale=1.0')
+    title Ryan Emslie - Full Stack Developer
+    link(href='https://fonts.googleapis.com/css?family=Merriweather:300,400,400i,700,800', rel='stylesheet')
+    <link href="https://fonts.googleapis.com/css?family=Permanent+Marker" rel="stylesheet">
+    link(rel='stylesheet', href='/css/foundation.css')
+    link(rel='stylesheet', href='/css/style.css')
+    link(rel='stylesheet', href='/css/background.css')
+  body
+    #my-info.off-canvas.position-left.reveal-for-large.portfolio-me(data-off-canvas='')
+      .grid-y.grid-padding-x(style='height: 100%;')
+        block sidebar
+          br
+          .cell.shrink
+            img.thumbnail(src='/images/profile.png')
+          .cell.auto
+
+            h5 Ryan Emslie
+
+            p.text-light
+              | I am a JavaScript Developer living in Gainesville, Florida.     
+ 
+            a.about-class(href='/about') About Me! →
+
+    .off-canvas-content(data-off-canvas-content='')
+      .title-bar.hide-for-large
+        .title-bar-left
+          button.menu-icon(type='button', data-toggle='my-info')
+
+          span.title-bar-title Ryan Emslie
+      block content
+        
+
+      
+  script(src='/js/vendor/jquery.js')
+  script(src='/js/vendor/what-input.js')
+  script(src='/js/vendor/foundation.js')
+  script(src='/js/scripts.js')
