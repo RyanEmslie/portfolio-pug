@@ -3,7 +3,7 @@
         {
                 "id": 0,
                 "project_name":"React Checkin App",
-                "description":"This React App allows users to 'Check-In' to their current location.  Location information is entered via a form and saved to MongoDB.  User authenication will be used to allow multiple user inputs.  The app is currently in develop and deployed on Heroku. ",
+                "description":"This React App allows users to 'Check-In' to their current location.  The location coordinates are collected by the browsers geolocation or fetched from the users IP address. The user is then prompted to fill out a form with details about their experience.  Location information and form data are saved to MongoDB.  The app uses React-Leaflet to render the map with the users location and reactstrap is used for styling. This app is a work in progress.... User authenication will be added in the future to allow multiple user inputs.  The app is currently in develop and deployed on Heroku. ",
                 "technologies":["React", "Express", "JavaScript", "MongoDB", "Mongoose", "Heroku"],
                 "live_link":"https://emslie-checkin.herokuapp.com/",
                 "github_link":"https://github.com/RyanEmslie/checkin-app",
@@ -12,7 +12,7 @@
         {
                 "id": 1,
                 "project_name":"SpaceX-Apollo-GraphQL",
-                "description":"This project connects to SpaceX open API. GraphQL is used to only call the specific queries from the SpaceX API.  React is used on the frontend and Apollo is used to manage local state.",
+                "description":"This project connects to SpaceX open API. GraphQL is used to only call the specific queries from the SpaceX API.  React is used on the frontend to render the different components of the website.  This was my first attempt at using Apollo to manage local state.  While Apollo may not be the best use case for a project this size, I want to get a feel for the syntax and usability.",
                 "technologies":["React", "Apollo", "GraphQL", "Express", "Axios","Heroku"],
                 "live_link":"https://emslie-apollo-graphql.herokuapp.com/",
                 "github_link":"https://github.com/RyanEmslie/graphql-apollo",
@@ -21,8 +21,8 @@
         {
                 "id": 2,
                 "project_name":"React App",
-                "description":"This project produces an image gallery built with React, the Create React App and React Router modules.  Axios was implemented to fetch data from the Flickr API and used to display images in the app.  The completed React app was deployed on Heroku.",
-                "technologies":["React", "CSS", "JavaScript", "JSX", "Create-React-App", "AXIOS", "Heroku"],
+                "description":"This project was part of the Full Stack JavaScript bootcamp.  This React app was designed to re-enforce the separation of presentation and logic.  Reaact-Router was used to keep the UI in sync with the url. Axios was implemented to fetch data from the Flickr API and used to display images in the app.  The focus of the app was on the implementation of React and little attention was given to the styling of this app. The completed React app was deployed on Heroku.",
+                "technologies":["React", "CSS", "JavaScript", "JSX", "React-Router", "AXIOS", "Heroku"],
                 "live_link":"https://emslie-react-sample.herokuapp.com/",
                 "github_link":"https://github.com/RyanEmslie/treehouse_unit9_exceeds",
                 "image_urls":["project2a.PNG", "project2b.PNG", "project2c.PNG"]
@@ -30,7 +30,7 @@
         {
                 "id": 3,
                 "project_name":"Dynamic Libary Manager",
-                "description":"This project creates a library managment system website that dynamically displays database entries.  The librays managments systme allows for creating, reading, updating, and deleting data.  The final app is deployed on Heroku.",
+                "description":"This project creates a library managment system web application that dynamically displays database entries.  The web application allows functionality for listing, adding, updating, and deleting books, using JavaScript, Node.js, Express, Pug, and the SQL ORM Sequelize.  If I were to rewrite this application I would use React library in place of the Pug templating engine. The final app is deployed on Heroku.",
                 "technologies":["HTML", "CSS", "JavaScript", "Express", "Pug", "Sequelize", "Sqlite","Heroku"],
                 "live_link":"https://emslie-lib-manager.herokuapp.com/",
                 "github_link":"https://github.com/RyanEmslie/treehouse_unit10_exceeds",
@@ -39,7 +39,7 @@
         {
                 "id": 4,
                 "project_name":"Employee Directory",
-                "description":"This project connects to a remote API that downloads randomized fake employee data in JSON format.  The JSON data is parsed and displayed in a directory.  The directory features a search function and a detailed employee modal view.",
+                "description":"This project connects to a remote API that downloads randomized fake employee data in JSON format.  The JSON data is parsed and displayed in a directory.  The directory features a search function and a detailed employee modal view.  This was one of the first projects completed for the Full Stack JavaScript bootcamp. If I were to rewrite this program now I would refactor to use ES6 throughout and remove any jQuery.  I would use desctructuring for a cleaner, more terse syntax.  I would also separate the code into presentation and logic components.",
                 "technologies":["HTML", "CSS", "JavaScript", "API", "JSON"],
                 "live_link":"https://ryanemslie.github.io/Unit5/index.html",
                 "github_link":"https://github.com/RyanEmslie/tree_house_unit_5_exceeds",
@@ -48,8 +48,8 @@
         {
                 "id": 5,
                 "project_name":"JS Registration Form",
-                "description":"JavaScript enhanced interactive registration form with realtime validation.",
-                "technologies":["HTML", "CSS", "JavaScript"],
+                "description":"This interactive registration form was written in jQuery.  The structure of the form changes conditionally based on the users inputs.  HTML5 validation was used in conjunction with real-time javascript validation.",
+                "technologies":["HTML", "CSS", "JavaScript", "jQuery"],
                 "live_link":"https://ryanemslie.github.io/Unit3/index.html",
                 "github_link":"https://github.com/RyanEmslie/treehouse_unit3_project",
                 "image_urls":["project5a.PNG", "project5b.PNG", "project5c.PNG"]
@@ -57,7 +57,7 @@
         {
                 "id": 6,
                 "project_name":"Tic-Tac-Toe",
-                "description":"A functional, PvP or PvC Tic Tac Toe game.  JavaScript data structures like arrays and objects as well as DOM-manipulation was used with vanilla JavaScript to complete this project.",
+                "description":"This tic-tac-toe game allows for Player versus PlayervP or Player versus Computer.  JavaScript data structures like arrays and objects as well as DOM-manipulation was used with vanilla JavaScript to complete this project.  This game does not implement OOP.  The player changes are based on hiding/showing the CSS classes.  If I were to rewrite this program I would use class based object oriented programming concepts.",
                 "technologies":["HTML", "CSS", "JavaScript", "Game Theory"],
                 "live_link":"https://ryanemslie.github.io/Unit4/index.html",
                 "github_link":"https://github.com/RyanEmslie/treehouse_unit_4_vanilla",
@@ -66,7 +66,7 @@
         {
                 "id": 7,
                 "project_name":"JavaScript Pagination",
-                "description":"Pagination enhances the usability of a web page that is displaying way too much information all at once. Long lists don't make for a good user experience on a web page.",
+                "description":"Pagination enhances the usability of a web page that is displaying way too much information all at once. Long lists don't make for a good user experience on a web page.  This was one of the first projects completed in the Full Stack Tech degree and pagination was implemented by manipulating CSS classes.  If I were to rewrite the project today I would be able to accomplish the task much easier with higher order array functions.",
                 "technologies":["HTML", "CSS", "JavaScript"],
                 "live_link":"https://ryanemslie.github.io/Unit2/index.html",
                 "github_link":"https://github.com/RyanEmslie/Project2",
@@ -80,6 +80,15 @@
                 "live_link":"https://ryanemslie.github.io/Unit1/index.html",
                 "github_link":"https://github.com/RyanEmslie/Project1-Button",
                 "image_urls": ["project8a.PNG", "project8b.PNG", "project8c.PNG"]
+        },
+        {
+                "id": 9,
+                "project_name":"Collatz Conjecture",
+                "description":"This project was just for fun.  I saw a YouTube video on the mathmatical Collatz Conjecture and thought it would be fun to program a graphical representation.  My readme.md file contains more information about the conjecture",
+                "technologies":["HTML", "CSS", "JavaScript", "Bootstrap"],
+                "live_link":"https://ryanemslie.github.io/collatz-js/index.html",
+                "github_link":"https://github.com/RyanEmslie/ryanemslie.github.io/tree/master/collatz-js",
+                "image_urls": ["project9a.PNG", "project9b.PNG", "project9c.PNG"]
         }
 ]
 }
