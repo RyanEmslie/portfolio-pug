@@ -74,15 +74,6 @@
         },
         {
                 "id": 8,
-                "project_name":"Random Quote Generator",
-                "description":"An app that displays random famous quotes each time a button is clicked.",
-                "technologies":["HTML", "CSS", "JavaScript"],
-                "live_link":"https://ryanemslie.github.io/Unit1/index.html",
-                "github_link":"https://github.com/RyanEmslie/Project1-Button",
-                "image_urls": ["project8a.PNG", "project8b.PNG", "project8c.PNG"]
-        },
-        {
-                "id": 9,
                 "project_name":"Collatz Conjecture",
                 "description":"This project was just for fun.  I saw a YouTube video on the mathmatical Collatz Conjecture and thought it would be fun to program a graphical representation.  My readme.md file contains more information about the conjecture",
                 "technologies":["HTML", "CSS", "JavaScript", "Bootstrap"],
